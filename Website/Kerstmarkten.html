@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="Navigation">
+        <a href="#" class="logo">Christmas</a> 
+        <div class="items">
+            <a href="Hoofdpagina.html">Home</a>
+            <a href="Kerstmarkten.html">Kerstmarkten</a>       
+            <a href="#">Favoriete</a>     
+        </div> 
+    </div>
+
+    <h1 class="titel">De Top Kerstmarkten Van Europa!</h1>
+
+    <div class="container">
+        <div class="kaartje">
+           <div class="foto top1"></div> 
+            <h1>Boedapest</h1>
+            <button onclick="openkerstmarkt('boedapest')" class="info">Meer Info</button>
+        </div>   
+    </div>
+
+    <div class="container">
+        <div class="kaartje">
+           <div class="foto top2"></div> 
+            <h1>Keulen</h1>
+            <button onclick="openkerstmarkt('keulen')" class="info">Meer Info</button>
+        </div>  
+        <div class="kaartje">
+            <div class="foto top3"></div> 
+             <h1>Madeira</h1>
+             <button onclick="openkerstmarkt('madeira')" class="info">Meer Info</button>
+         </div>    
+    </div>
+
+    <div class="container">
+        <div class="kaartje">
+           <div class="foto top4"></div> 
+            <h1>Madrid</h1>
+            <button onclick="openkerstmarkt('madrid')" class="info">Meer Info</button>
+        </div>  
+        <div class="kaartje">
+            <div class="foto top5"></div> 
+             <h1>Montbéliard</h1>
+             <button onclick="openkerstmarkt('montbéliard')" class="info">Meer Info</button>
+         </div> 
+         <div class="kaartje">
+            <div class="foto top6"></div> 
+             <h1>Valkenburg</h1>
+             <button onclick="openkerstmarkt('valkenburg')" class="info">Meer Info</button>
+         </div>       
+    </div>
+    
+    <div class="container">
+        <div class="kaartje">
+           <div class="foto top7"></div> 
+            <h1>Gdansk</h1>
+            <button onclick="openkerstmarkt('gdansk')" class="info">Meer Info</button>
+        </div>  
+        <div class="kaartje">
+            <div class="foto top8"></div> 
+             <h1>Brussel</h1>
+             <button onclick="openkerstmarkt('brussel')" class="info">Meer Info</button>
+         </div> 
+         <div class="kaartje">
+            <div class="foto top9"></div> 
+             <h1>Wenen</h1>
+             <button onclick="openkerstmarkt('wenen')" class="info">Meer Info</button>
+         </div>   
+         <div class="kaartje">
+            <div class="foto top10"></div> 
+             <h1>Tallinn</h1>
+             <button onclick="openkerstmarkt('tallinn')" class="info">Meer Info</button>
+         </div>        
+    </div>
+
+    <div class="onderkant"></div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+
+    <script src="myscripts.js"></script>
+</body>
+</html>
